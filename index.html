@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>❤️Para Mariana❤️</title>
+
+    <script src="assets/jquery-3.6.0.min.js"></script>
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="assets/estilo.css">
+
+    <link rel="preload" as="image" href="imagens/fundo2.gif">
+    <link rel="preload" as="image" href="imagens/fundo3.gif">
+    <link rel="preload" as="image" href="imagens/fundo4.jpg">
+    <link rel="preload" as="image" href="imagens/fundo7.gif">
+    <link rel="preload" as="image" href="imagens/fundo9.gif">
+    <link rel="preload" as="audio" href="assets/musica.mp3">
+
+</head>
+<body class="fundo1">
+    <div class="container d-flex justify-content-center">
+
+        <div id="tela1" class="tela tela-centro visivel">
+            <h1 class="text-muted">Bem-vinda</h1>
+            <p>Você está pronta?</p>
+            <button class="mudaTela btn-vermelho">Começar</button>
+        </div>
+
+        <div id="tela2" class="tela" fundo="fundo1">
+            <p class="text-muted"><small>Antes de começar, confirme:</small>
+                <br>
+            <strong>Qual é seu nome completo?</strong></p>
+            <input type="text" name="nome" id="nome">
+            <br>
+
+            <button class="mudaTela btn-vermelho btn-block mt-5" animacao="null" tempoAnimacao="500" id="confirmaNome">Confirmar</button>
+            <br>
+
+        </div>
+
+        <div id="tela3" class="tela">
+            <p>Para que tudo dê certo, você precisa estar ouvindo a música de fundo.</p>
+            <hr>
+            <p><small>Quando ela começar, clique no botão.</small></p>
+            <button class="mudaTela btn-vermelho">Continuar</button>
+        </div>
+
+        <div id="tela4" class="invisivel letra2 temporizado tela-centro" fundo="fundo2" style="color: #FFF;text-shadow: 2px 0 #000, -2px 0 #000, 0 2px #000, 0 -2px #000,
+        1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;" tempo="6000" >
+            <div tempo="6000">
+                <p>Bom, então vamos lá...</p>
+            </div>
+            <div tempo="6000">
+                <p>eu quero deixar de ser besta</p>
+            </div>
+            <div tempo="6000" final="true">
+                <p>e arrumar você como uma mulher pra mim.</p>
+            </div>
+        </div>
+
+        <div id="tela5" class="invisivel temporizado letra2 tela-centro" fundo="fundo3" style="color: #FFF;text-shadow: 2px 0 #000, -2px 0 #000, 0 2px #000, 0 -2px #000,
+        1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;"  tempo="6000" >
+            <div tempo="6000">
+                <p>Então, se vc me ama...</p>
+            </div>
+            <div tempo="5000">
+                <p>me ligue...</p>
+            </div>
+            <div tempo="5000">
+                <p>pode me fazer queixa...</p>
+            </div>
+            <div tempo="8000">
+                <p>vc não é como as outras já tem feito...</p>
+            </div>
+            <div tempo="8000" final="true">
+                <p>os momentos ao seu lado não é sofrendo.</p>
+            </div>
+        </div>
+
+        <div id="tela6" class="tela-centro tela" fundo="fundo4" tempo="6000">
+         
+            <p>Agora sem Manuel Gomes, gostaria que soubesse de uma coisa.</p>
+
+            <button class="mudaTela btn-rosa">Continuar</button>
+
+        </div>
+
+        <div id="tela7" class="tela">
+         
+            <div class="text-start">
+                <div class="text-center">
+                    <h2 class="letra-vermelha">Mariana</h2>
+                    <p class="letra2" style="font-size: 0.8em;"><strong>Não estava achando que encontraria uma pessoa que combinasse em um período tão curto do fim da escola.</strong></p>
+                </div>
+                <hr>
+                <p><strong class="letra-vermelha">E quando digo combinar</strong>, é a sensação de já te conhecer a muitos anos.</p>
+                <p><strong class="letra-vermelha">Conversas</strong> de horas que parecem ser alguns minutos.</p>
+                <p><strong class="letra-vermelha">Piadas</strong> que só faria com meus amigos viraram memes internos nossos.</p>
+                <p><strong class="letra-vermelha">Mordidas</strong> fofas que apenas me fazem cócegas.</p>
+                <p><strong class="letra-vermelha">Gostos</strong> raros de se ter que me impressionam a cada diakkkkk.</p>
+                <p><strong class="letra-vermelha">Corpo</strong> perfeito que me faz lembrar que a vida não é só computador e academia.</p>
+                <p>Não preciso criar um novo eu para estar com vc, finalmente encontrei uma mulher que aceite meu eu de verdade.</p>
+
+            </div>
+
+            <button class="mudaTela btn-rosa mt-3">Continuar</button>
+
+        </div>
+
+        <div id="tela8" class="invisivel temporizado letra2 tela-centro" fundo="fundo5" style="color: #FFF; text-shadow: 2px 0 #000, -2px 0 #000, 0 2px #000, 0 -2px #000,
+        1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;" tempo="2000" >
+            <div tempo="3000">
+                <p>E só de pensar...</p>
+            </div>
+            <div tempo="2500">
+                <p>onde tudo começou...</p>
+            </div>
+            <div tempo="6000" >
+                <img src="imagens/tela8-1.jpeg" class="custom" height="500" alt="Tela Primeira Conversa">
+            </div>
+            <div tempo="3000">
+                <p>E só de pensar...</p>
+            </div>
+            <div tempo="4000">
+                <p>em tudo que ainda podemos viver juntos...</p>
+            </div>
+            <div tempo="4000">
+                <p>É de arrepiar.</p>
+            </div>
+            <div tempo="2500" final="true">
+                <p>Você é o meu lil carneirinho</p>
+            </div>
+        </div>
+
+        <div id="tela9" class="invisivel temporizado letra2 tela-centro" fundo="fundo6" style="color: #999;" tempo="2500" >
+            <div tempo="2000">
+                <p>Bom...</p>
+            </div>
+            <div tempo="3500">
+                <p>acho que já não dá mais para adiar.</p>
+            </div>
+            <div tempo="3500" >
+                <p>Eu preciso te fazer a pergunta.</p>
+            </div>
+            <div tempo="4000" final="true">
+                <p>Algo que estou muito seguro em perguntar...</p>
+            </div>
+        </div>
+
+        <div id="tela10" class="tela tela-centro">
+            <h2 class="text-muted">Quer namorar comigo?</h2>
+
+            <button class="mudaTela btn-verde" id="sim">Sim</button>
+            <br>
+            <button class="btn-vermelho" id="nao">Não</button>
+        </div>
+
+        <div id="tela11" class="invisivel temporizado letra2 tela-centro" fundo="fundo7" style="color: #FFF;" tempo="1500" >
+            <div tempo="10000" class="text-center">
+                <p class="mb-0">Agora 04/02 é a nossa data! Obrigado.</p>
+                <div class="text-center">
+                    <span style="font-size:0.4em; color: #555;">fim</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    
+
+    <!--<script src="assets/js/bootstrap.min.js"></script>-->
+
+    <script src="assets/script.js"></script>
+    <!--<script src="assets/all.min.js"></script>-->
+
+</body>
+</html>
